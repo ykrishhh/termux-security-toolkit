@@ -7,9 +7,9 @@
 [![Ethical Hacking](https://img.shields.io/badge/Use-Only%20Authorized-red)](#disclaimer)
 [![OS](https://img.shields.io/badge/OS-Android-3DDC84?logo=android)](https://www.android.com/)
 
-> Complete security toolkit for Termux on Android — network scanning, password cracking, web vulnerability assessment, wireless auditing, forensics, and OSINT gathering, all from your phone.
+> Turn your Android phone into a portable pentesting workstation. 30+ security tools running natively in Termux — network scanning, password cracking, web vuln assessment, wireless auditing, forensics, and OSINT.
 
-Turn your Android device into a portable penetration testing workstation. This repository contains verified installation commands, configuration scripts, and ready-to-use cheat sheets for 30+ security tools running natively in Termux.
+I built this because I got sick of carrying a laptop to every engagement. My phone is always in my pocket — might as well make it useful. This repo has verified install commands, config scripts, and cheat sheets for running security tools on Android without root (mostly).
 
 ---
 
@@ -32,7 +32,7 @@ Turn your Android device into a portable penetration testing workstation. This r
 
 ## Prerequisites
 
-Before installing anything, ensure your environment is ready.
+Get your environment ready before installing anything.
 
 ```bash
 # Update package manager and system
@@ -52,7 +52,7 @@ termux-setup-storage
 
 ## Quick Setup
 
-Clone this repository and run the automated setup.
+Clone and run the automated setup.
 
 ```bash
 # Clone the toolkit
@@ -520,7 +520,7 @@ ls scans/
 
 ## Resource Optimization
 
-Termux runs on mobile hardware — these tips keep tools responsive.
+Termux runs on mobile hardware. It's not fast. Here's how to keep things usable.
 
 ### Swap Space
 
