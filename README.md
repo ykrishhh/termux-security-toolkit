@@ -1,19 +1,27 @@
+<div align="center">
+
+<img src="assets/logo.svg" width="400" alt="Termux Security Toolkit">
+
 # Termux Security Toolkit
-<img src="assets/logo.svg" alt="Termux Security Toolkit" width="400" height="200">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Termux-black)](https://termux.dev)
+> Security tools for Termux — network scanning, password auditing, ethical hacking.
 
-> Security tools and scripts for Termux on Android — network scanning, password auditing, and ethical hacking.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/ykrishhh/termux-security-toolkit?style=for-the-badge&color=blue)](https://github.com/ykrishhh/termux-security-toolkit)
+
+</div>
+
+---
 
 ## Features
 
-- **Network Scanning** — Port scanning, service detection, subnet enumeration
-- **Password Auditing** — Hash cracking, brute force, dictionary attacks
-- **Reconnaissance** — OSINT gathering, DNS enumeration, WHOIS lookups
-- **Exploitation** — Vulnerability assessment and proof-of-concept tools
+| Tool | Purpose |
+|------|---------|
+| scanner.sh | Network port scanner |
+| recon.sh | OSINT reconnaissance |
+| audit.sh | Password strength auditor |
 
-## Quick Start
+### Quick Start
 
 ```bash
 pkg install git python
@@ -23,18 +31,25 @@ chmod +x install.sh
 ./install.sh
 ```
 
-## Tools Included
+## Quick Start
 
-| Tool | Purpose |
-|------|---------|
-| scanner.sh | Network port scanner |
-| recon.sh | OSINT reconnaissance |
-| audit.sh | Password strength auditor |
+```bash
+git clone https://github.com/ykrishhh/termux-security-toolkit.git
+cd termux-security-toolkit
+```
 
 ## Contributing
 
-PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions welcome!
 
 ## License
 
-MIT — Built by [ykrishhh](https://github.com/ykrishhh)
+[MIT License](LICENSE) — Built by [ykrishhh](https://github.com/ykrishhh)
+
+---
+
+<div align="center">
+
+**Star this repo if you find it useful!** ⭐
+
+</div>
