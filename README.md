@@ -53,3 +53,8 @@ Contributions welcome!
 **Star this repo if you find it useful!** ⭐
 
 </div>
+
+
+## Architecture
+
+Explore interactive diagrams of this project's architecture: [docs/architecture.html](docs/architecture.html).
